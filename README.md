@@ -62,6 +62,47 @@ recommended marketing program.
 
 ## Prepare
 ### Download data and store it appropriately
+I use Cyclistic’s historical trip data to analyze and identify trends. And the data is downloaded [here](https://divvy-tripdata.s3.amazonaws.com/index.html).
+
 ### Identify how it’s organized
+The data is in CSV file format. There are 13 columns as below. 
+- "ride_id"
+- "rideable_type"
+- "started_at"        
+- "ended_at"
+- "start_station_name"
+- "start_station_id"  
+- "end_station_name"
+- "end_station_id"
+- "start_lat"         
+- "start_lng"
+- "end_lat"
+- "end_lng"           
+- "member_casual"
+
 ### Sort and filter the data
+I filter the past 12 month trip data for the analysis.
+
 ### Determine the credibility of the data
+There are Data-privacy issues. Due to riders’ personally identifiable information, I won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.
+
+## Process and Analyse
+I use R programming to conduct the data cleaning process. Please refer to [here](https://github.com/Kimmi614/Case-study_Cyclistic-bike-share-analysis-/blob/f0b0ef0ccb6a7fd3f2faaf297945b4dac9aacd70/2.%20Analysis%20a%20%E2%80%9C/Case%20study_Cyclistic%20bike-share%20analysis%20_final%20version.rmd).
+
+### Data Cleaning and Data Transformation
+- Check the data for errors
+- Transform the data
+-
+### Data Calculation
+- Aggregate data
+- Organize and format data.
+- Perform calculations
+
+## Summary of analysis
+- Saturday and Sunday are the popular days for renting a bike, regardless of whether a Member or a Casual Rider.
+- - The number of Casual Riders who hire a bike is lowest from Monday to Thursday and increases as the week goes, whereas members rent bikes on a more consistent basis throughout the week.
+- 
+## Act
+Here's my suggestions.
+- Conduct a survey to get information from existing casual riders and learn what features or benefits they seek when considering becoming annual members.
+- To attract casual riders to a full yearly membership and savings for longer rides, offer a weekend-only membership at a different price point than the full annual membership.
