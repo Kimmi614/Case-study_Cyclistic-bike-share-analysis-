@@ -100,8 +100,8 @@ I use R programming to conduct the data cleaning process. Please refer to [here]
 
 ## Summary of analysis
 - Saturday and Sunday are the popular days for renting a bike, regardless of whether a Member or a Casual Rider.
-- - The number of Casual Riders who hire a bike is lowest from Monday to Thursday and increases as the week goes, whereas members rent bikes on a more consistent basis throughout the week.
-- 
+- The number of Casual Riders who hire a bike is lowest from Monday to Thursday and increases as the week goes, whereas members rent bikes on a more consistent basis throughout the week.
+
 ## Act
 Here's my suggestions.
 - Conduct a survey to get information from existing casual riders and learn what features or benefits they seek when considering becoming annual members.
