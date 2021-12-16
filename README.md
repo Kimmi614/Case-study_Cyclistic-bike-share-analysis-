@@ -92,7 +92,7 @@ I use R programming to conduct the data cleaning process. Please refer to [here]
 ### Data Cleaning and Data Transformation
 - Check the data for errors
 - Transform the data
--
+
 ### Data Calculation
 - Aggregate data
 - Organize and format data.
